@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "montserrat";
+  font-size: 20px;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: rgb(36, 35, 35);
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+section h1 {
+  color: rgba(255, 255, 255, 0.322);
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+section p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.322);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+button {
+  width: 45%;
+  max-width: 200px;
+  padding: 12px;
+  border-radius: 15px;
+  background-color: rgb(199, 195, 195);
+  color: black;
+}
+
+button:hover {
+  background-color: rgb(255, 166, 0);
+  color: white;
+}
+
+.texts p {
+  color: white;
+  text-align: left;
+  background-color: rgb(255, 166, 0);
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.texts p.reply {
+  text-align: right;
+  background-color: rgb(199, 195, 195);
+  color: black;
+}
