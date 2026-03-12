@@ -1,4 +1,4 @@
-# VoiceFlow: AI-Powered Speech Recognition Chat
+# VoiceFlow: Speech Recognition WebApp
 
 VoiceFlow is a modern, responsive web application that leverages the Web Speech API to facilitate seamless, real-time voice-to-text communication. Designed with a focus on accessibility and intuitive user experience, it allows users to interact with a chat interface entirely through vocal commands.
 
