@@ -28,6 +28,7 @@ recognition.addEventListener("result", (e) => {
 
   //to start a new paragraph
   if (e.results[0].isFinal) {
+    text = text.toLowerCase();
     //adding custom replies
     if (text.includes("hello") || text.includes("hi")) {
       p = document.createElement("p");
@@ -35,7 +36,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Hey there, i'm Chris";
       texts.appendChild(p);
     }
-    if (text.includes("How are you") || text.includes("how are you today")) {
+    if (text.includes("how are you") || text.includes("how are you today")) {
       p = document.createElement("p");
       p.classList.add("reply");
       p.innerText = "i am very well, thank you";
@@ -47,7 +48,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "I am an Ai created by Christopher";
       texts.appendChild(p);
     }
-    if (text.includes("open a YouTube page")) {
+    if (text.includes("open a youtube page")) {
       p = document.createElement("p");
       p.classList.add("reply");
       p.innerText = "Opening a random Youube page";
